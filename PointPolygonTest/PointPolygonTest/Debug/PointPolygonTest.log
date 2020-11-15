@@ -1,0 +1,34 @@
+﻿  main.cpp
+h:\projects\vs2015\pointpolygontest\pointpolygontest\main.cpp(19): warning C4018: “<”: 有符号/无符号不匹配
+h:\projects\vs2015\pointpolygontest\pointpolygontest\main.cpp(21): warning C4018: “<”: 有符号/无符号不匹配
+main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z)，该符号在函数 "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "private: char * __thiscall cv::String::allocate(unsigned int)" (?allocate@String@cv@@AAEPADI@Z)，该符号在函数 "public: __thiscall cv::String::String(char const *)" (??0String@cv@@QAE@PBD@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)，该符号在函数 "public: __thiscall cv::String::~String(void)" (??1String@cv@@QAE@XZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::error(int,class cv::String const &,char const *,char const *,int)" (?error@cv@@YAXHABVString@1@PBD1H@Z)，该符号在函数 "public: __thiscall cv::Mat::Mat(class cv::Mat &&)" (??0Mat@cv@@QAE@$$QAV01@@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall cv::Mat::copyTo(class cv::debug_build_guard::_OutputArray const &)const " (?copyTo@Mat@cv@@QBEXABV_OutputArray@debug_build_guard@2@@Z)，该符号在函数 "public: class cv::Mat __thiscall cv::Mat::clone(void)const " (?clone@Mat@cv@@QBE?AV12@XZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ)，该符号在函数 "public: void __thiscall cv::Mat::release(void)" (?release@Mat@cv@@QAEXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "class cv::Mat __cdecl cv::imread(class cv::String const &,int)" (?imread@cv@@YA?AVMat@1@ABVString@1@H@Z)，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::imshow(class cv::String const &,class cv::debug_build_guard::_InputArray const &)" (?imshow@cv@@YAXABVString@1@ABV_InputArray@debug_build_guard@1@@Z)，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "double __cdecl cv::threshold(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,double,double,int)" (?threshold@cv@@YANABV_InputArray@debug_build_guard@1@ABV_OutputArray@31@NNH@Z)，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::cvtColor(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,int,int)" (?cvtColor@cv@@YAXABV_InputArray@debug_build_guard@1@ABV_OutputArray@31@HH@Z)，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::findContours(class cv::debug_build_guard::_InputOutputArray const &,class cv::debug_build_guard::_OutputArray const &,class cv::debug_build_guard::_OutputArray const &,int,int,class cv::Point_<int>)" (?findContours@cv@@YAXABV_InputOutputArray@debug_build_guard@1@ABV_OutputArray@31@1HHV?$Point_@H@1@@Z)，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "double __cdecl cv::pointPolygonTest(class cv::debug_build_guard::_InputArray const &,class cv::Point_<float>,bool)" (?pointPolygonTest@cv@@YANABV_InputArray@debug_build_guard@1@V?$Point_@M@1@_N@Z)，该符号在函数 _main 中被引用
+D:\OpenCV\opencv\build\x64\vc14\lib\opencv_calib3d341d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+D:\OpenCV\opencv\build\x64\vc14\lib\opencv_core341d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+D:\OpenCV\opencv\build\x64\vc14\lib\opencv_dnn341d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+D:\OpenCV\opencv\build\x64\vc14\lib\opencv_features2d341d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+D:\OpenCV\opencv\build\x64\vc14\lib\opencv_highgui341d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+D:\OpenCV\opencv\build\x64\vc14\lib\opencv_imgcodecs341d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+D:\OpenCV\opencv\build\x64\vc14\lib\opencv_imgproc341d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+D:\OpenCV\opencv\build\x64\vc14\lib\opencv_ml341d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+D:\OpenCV\opencv\build\x64\vc14\lib\opencv_objdetect341d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+D:\OpenCV\opencv\build\x64\vc14\lib\opencv_photo341d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+D:\OpenCV\opencv\build\x64\vc14\lib\opencv_shape341d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+D:\OpenCV\opencv\build\x64\vc14\lib\opencv_stitching341d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+D:\OpenCV\opencv\build\x64\vc14\lib\opencv_superres341d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+D:\OpenCV\opencv\build\x64\vc14\lib\opencv_ts341d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+D:\OpenCV\opencv\build\x64\vc14\lib\opencv_video341d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+D:\OpenCV\opencv\build\x64\vc14\lib\opencv_videoio341d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+D:\OpenCV\opencv\build\x64\vc14\lib\opencv_videostab341d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+D:\OpenCV\opencv\build\x64\vc14\lib\opencv_world341d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+H:\Projects\VS2015\PointPolygonTest\Debug\PointPolygonTest.exe : fatal error LNK1120: 12 个无法解析的外部命令

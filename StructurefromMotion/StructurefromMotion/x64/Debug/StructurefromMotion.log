@@ -1,0 +1,5 @@
+﻿  main.cpp
+h:\projects\vs2015\structurefrommotion\structurefrommotion\main.cpp(93): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+h:\projects\vs2015\structurefrommotion\structurefrommotion\main.cpp(96): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  StructurefromMotion.vcxproj -> H:\Projects\VS2015\StructurefromMotion\x64\Debug\StructurefromMotion.exe
+  StructurefromMotion.vcxproj -> H:\Projects\VS2015\StructurefromMotion\x64\Debug\StructurefromMotion.pdb (Full PDB)

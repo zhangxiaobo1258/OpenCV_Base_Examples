@@ -1,0 +1,4 @@
+﻿  main.cpp
+h:\projects\vs2015\minenclosingcircle\minenclosingcircle\main.cpp(26): warning C4018: “<”: 有符号/无符号不匹配
+h:\projects\vs2015\minenclosingcircle\minenclosingcircle\main.cpp(30): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+opencv_highgui341d.lib(opencv_highgui341d.dll) : fatal error LNK1112: 模块计算机类型“x64”与目标计算机类型“X86”冲突

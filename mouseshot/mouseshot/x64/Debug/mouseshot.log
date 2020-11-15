@@ -1,0 +1,4 @@
+﻿  main.cpp
+h:\projects\vs2015\mouseshot\mouseshot\main.cpp(28): warning C4805: “==”: 在操作中将类型“int”与类型“bool”混合不安全
+  mouseshot.vcxproj -> H:\Projects\VS2015\mouseshot\x64\Debug\mouseshot.exe
+  mouseshot.vcxproj -> H:\Projects\VS2015\mouseshot\x64\Debug\mouseshot.pdb (Full PDB)

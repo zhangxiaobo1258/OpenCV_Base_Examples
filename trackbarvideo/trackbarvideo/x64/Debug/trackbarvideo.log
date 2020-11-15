@@ -1,0 +1,6 @@
+﻿  main.cpp
+h:\projects\vs2015\trackbarvideo\trackbarvideo\main.cpp(26): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+h:\projects\vs2015\trackbarvideo\trackbarvideo\main.cpp(36): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+h:\projects\vs2015\trackbarvideo\trackbarvideo\main.cpp(45): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  trackbarvideo.vcxproj -> H:\Projects\VS2015\trackbarvideo\x64\Debug\trackbarvideo.exe
+  trackbarvideo.vcxproj -> H:\Projects\VS2015\trackbarvideo\x64\Debug\trackbarvideo.pdb (Full PDB)

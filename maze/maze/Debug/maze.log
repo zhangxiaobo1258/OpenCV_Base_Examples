@@ -1,0 +1,17 @@
+﻿生成启动时间为 2018/10/24 12:55:43。
+     1>项目“E:\Projects\VS2010\maze\maze\maze.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\maze.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll : warning C4945: “ExtensionAttribute”: 无法从“c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.core.dll”导入符号: 因为“System::Runtime::CompilerServices::ExtensionAttribute”已从另一个程序集“mscorlib”导入
+                 c:\windows\microsoft.net\framework\v4.0.30319\mscorlib.dll : 参见“System::Runtime::CompilerServices::ExtensionAttribute”的声明
+                 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+                 在导入类型“System.Runtime.CompilerServices.ExtensionAttribute”(从程序集“System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”中导入)时发生此诊断。
+     1>main.cpp(13): error C2065: “srcImg”: 未声明的标识符
+     1>已完成生成项目“E:\Projects\VS2010\maze\maze\maze.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.94

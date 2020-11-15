@@ -1,0 +1,3 @@
+﻿  main.cpp
+h:\projects\vs2015\matchtemp\matchtemp\main.cpp(12): error C2374: “result”: 重定义；多次初始化
+  h:\projects\vs2015\matchtemp\matchtemp\main.cpp(9): note: 参见“result”的声明

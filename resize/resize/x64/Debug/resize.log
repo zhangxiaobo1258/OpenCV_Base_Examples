@@ -1,0 +1,5 @@
+﻿  main.cpp
+h:\projects\vs2015\resize\resize\main.cpp(70): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+h:\projects\vs2015\resize\resize\main.cpp(71): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  resize.vcxproj -> H:\Projects\VS2015\resize\x64\Debug\resize.exe
+  resize.vcxproj -> H:\Projects\VS2015\resize\x64\Debug\resize.pdb (Full PDB)

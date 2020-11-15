@@ -1,0 +1,4 @@
+﻿  main.cpp
+h:\projects\vs2015\video_capture\video_capture\video_capture\main.cpp(65): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  Video_Capture.vcxproj -> H:\Projects\VS2015\Video_Capture\Video_Capture\x64\Debug\Video_Capture.exe
+  Video_Capture.vcxproj -> H:\Projects\VS2015\Video_Capture\Video_Capture\x64\Debug\Video_Capture.pdb (Full PDB)

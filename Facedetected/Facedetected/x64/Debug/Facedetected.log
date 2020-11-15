@@ -1,0 +1,4 @@
+﻿  facedetect.cpp
+h:\projects\vs2015\facedetected\facedetected\facedetect.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Facedetected.vcxproj -> H:\Projects\VS2015\Facedetected\x64\Debug\Facedetected.exe
+  Facedetected.vcxproj -> H:\Projects\VS2015\Facedetected\x64\Debug\Facedetected.pdb (Full PDB)

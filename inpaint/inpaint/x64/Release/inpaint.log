@@ -1,0 +1,4 @@
+﻿main.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::imshow(class cv::String const &,class cv::_InputArray const &)" (?imshow@cv@@YAXAEBVString@1@AEBV_InputArray@1@@Z)
+main.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::rectangle(class cv::_InputOutputArray const &,class cv::Point_<int>,class cv::Point_<int>,class cv::Scalar_<double> const &,int,int,int)" (?rectangle@cv@@YAXAEBV_InputOutputArray@1@V?$Point_@H@1@1AEBV?$Scalar_@N@1@HHH@Z)
+main.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::inpaint(class cv::_InputArray const &,class cv::_InputArray const &,class cv::_OutputArray const &,double,int)" (?inpaint@cv@@YAXAEBV_InputArray@1@0AEBV_OutputArray@1@NH@Z)
+H:\Projects\VS2015\inpaint\x64\Release\inpaint.exe : fatal error LNK1120: 3 个无法解析的外部命令

@@ -1,0 +1,20 @@
+﻿  main.cpp
+d:\opencv\opencv\build\include\opencv2\core\cvstd.hpp(575): warning C4793: “cv::String::String”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+d:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(482): warning C4793: “cv::Mat::Mat”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+d:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(815): warning C4793: “cv::Mat::release”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+d:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(2135): warning C4793: “cv::SparseMat::addref”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+d:\opencv\opencv\build\include\opencv2\core\mat.inl.hpp(3735): warning C4793: “cv::UMat::addref”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+d:\opencv\opencv\build\include\opencv2\core\ptr.inl.hpp(67): warning C4793: “cv::detail::PtrOwner::incRef”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+d:\opencv\opencv\build\include\opencv2\core\ptr.inl.hpp(72): warning C4793: “cv::detail::PtrOwner::decRef”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+opencv_ts341d.lib(ts_perf.obj) : error LNK2005: "public: __cdecl cv::MatSize::MatSize(int *)" (??0MatSize@cv@@QEAA@PEAH@Z) 已经在 opencv_core341d.lib(opencv_core341d.dll) 中定义
+opencv_ts341d.lib(ts_perf.obj) : error LNK2005: "public: __cdecl cv::MatStep::MatStep(unsigned __int64)" (??0MatStep@cv@@QEAA@_K@Z) 已经在 opencv_core341d.lib(opencv_core341d.dll) 中定义
+opencv_ts341d.lib(ts_perf.obj) : error LNK2005: "public: unsigned __int64 & __cdecl cv::MatStep::operator[](int)" (??AMatStep@cv@@QEAAAEA_KH@Z) 已经在 opencv_core341d.lib(opencv_core341d.dll) 中定义
+opencv_ts341d.lib(ts_perf.obj) : error LNK2005: "public: unsigned __int64 const & __cdecl cv::MatStep::operator[](int)const " (??AMatStep@cv@@QEBAAEB_KH@Z) 已经在 opencv_core341d.lib(opencv_core341d.dll) 中定义
+H:\Projects\VS2015\maze\x64\Debug\maze.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
